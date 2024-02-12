@@ -34,14 +34,15 @@ const login=mongoose.model("login",{fname: {
   }},"Logindetails")
 
 
-
+app.get("/",function(req,res)
+{
+    res.send("server is connected")
+})
 app.listen(5000,function(){
     console.log("server connected")
 })
 
-app.get("/",function(req,res){
-    res.send("hello")
-})
+
 app.get("/userlist",function(req,res)
 {
     login.find().then( function(retdata){
