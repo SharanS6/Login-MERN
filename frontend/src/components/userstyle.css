@@ -1,0 +1,75 @@
+
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../asserts/bg-user1.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.user-box{
+
+    /* border: 2px solid black; */
+    width: 800px;
+    height: 30rem;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border: 1px solid black;
+}
+.user-name{
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 2px solid black; */
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    color: white;
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    
+}
+
+.user-details{
+
+    
+    padding: 20px 30px;
+    position: relative;
+    width: 58%;
+    background-color:#2C2E6D;
+    color:white;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.user-details h3{
+    margin: 50px 40px;
+}
+
+.user-details button{
+    position: absolute;
+    bottom: 5rem;
+    left: 10rem;
+    padding: 20px 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.812);
+    color: whitesmoke;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.user-details button:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    cursor: pointer;
+}
+.user-name img{
+    width: 90%;
+    height: 60%;
+    border-radius:70%
+}

@@ -1,0 +1,89 @@
+
+
+
+.signup-background{
+    background-image: url(../asserts/signupimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
+.Signup-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.signup-form{
+    border: 2px solid  rgba(255, 255,255, .2);
+    backdrop-filter: blur(30px);
+    background: transparent;
+    width: 35rem;
+    height: 35rem;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    
+}
+.signup-form h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.input-box_name{
+    display: flex;
+    justify-content: space-between;
+}
+.signup-form input{
+font-size: large;
+border-radius: 10px;
+border: none;
+height: 30px;
+padding: 10px;
+outline: none;
+}
+.input-box_email,.input-box_pw{
+
+    margin-top: 20px;
+}
+.signup-form button{
+    padding:15px 25px ;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #04142D;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    margin-left: 40%;
+}
+.SignUplink{
+    color: white;
+    text-decoration: none;
+}
+
+label{
+    margin-left: 10px;
+    font-size: large;
+    color:#04142D;
+}
+
+.input-box_email,.input_box_pw{
+    padding: 20px 0;
+    
+}
+.input-box_email input,.input-box_pw input{
+    width: 45%;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+}
+.termsPolicy {
+    text-align: center;
+    color:#04142D ;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.emailexits{
+    
+}

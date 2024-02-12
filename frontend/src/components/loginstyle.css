@@ -1,0 +1,77 @@
+
+
+
+.Login-Wrapper{
+    color: #04142D;
+    background-image: url("../asserts/loginimg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.Login-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.Login-Container_box{
+    border: 2px solid rgba(255, 255,255, .2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(30px);
+    background: transparent;
+    width: 40vw;
+    padding: 20px;
+    text-align: center;
+ 
+}
+/* .input-box h1,p,h4{
+text-align: center;    
+    
+} */
+
+.input-box input{
+    padding: 10px;
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: large;
+}
+.input-box input::placeholder{
+    color: white;
+    font-size: larger;
+}
+
+
+.input-box button{
+    padding:15px 25px ;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #04142D;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+
+.input-box1{
+    border: 2px solid rgba(255, 255,255, .2);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.signuplink{
+    color: white;
+    text-decoration: none;
+}
+.Login-Container p{
+    font-size: 15px;
+}
