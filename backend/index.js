@@ -3,7 +3,8 @@ const cors =require("cors")
 const mongoose =require("mongoose")
 
 const app= express();
-app.use(cors())
+var corsOptions={origin:['https://login-mern-frontend-iota.vercel.app/'],}
+app.use(cors(corsOptions))
 app.use(express.json())
 mongoose.set('strictQuery', true);
 
