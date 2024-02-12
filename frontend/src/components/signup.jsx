@@ -32,7 +32,7 @@ function Signup() {
          async function handleSignup(){
             console.log(nuser)
 
-         await   axios.post("http://localhost:5000/adduser",{newuser:nuser}).then(function(data){
+         await   axios.post("https://login-mern-backend.vercel.app/adduser",{newuser:nuser}).then(function(data){
                 console.log(data)
                 if(data.data==true){
                     navigate('/')
